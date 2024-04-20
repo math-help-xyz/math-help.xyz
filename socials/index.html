@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.fuchsia.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.colors.min.css">
+</head>
+<body class="pico-background-fuchsia-600" onload="waffleForm.reset();">
+    <main class="container">
+        <h1 class="pico-color-fuchsia-50">I'm Jay.</h1>
+        <h1 class="pico-color-fuchsia-50"><br>Just scroll with me for a little.</h1>
+        <h2 class="pico-color-fuchsia-50" id="arrow1">
+            <br><br><br><br>
+            👇
+        </h2>
+        <hgroup style="margin-top: 10vh;">
+            <h2>I'm a young developer.</h2>
+            <p class="pico-color-fuchsia-200">Learning JavaScript.</p>
+        </hgroup>
+
+        <h2 style="margin-top: 13.5vh; font-size: 50px;">👇</h2>
+        <h2 style="margin-top: 50vh;">With mostly incomplete projects...</h2>
+        <form name="waffleForm">
+        <fieldset>
+            <legend>Do you like waffles? 🧇</legend>
+            <label>
+                <input name="waffles" type="radio" id="waffleYes" onclick="yes()"">
+                Yes
+            </label>
+            <label>
+                <input name="waffles" type="radio" id="waffleNo" onclick="no()">
+                No
+            </label>
+        </fieldset>
+        </form>
+        
+        <h2 id="wafflesLike"></h2>
+        <h2 style="margin-top: 20vh;">I want pixy sticks! 👇</h2>
+        <h2 style="margin-top: 20vh;">If you're wondering how I made this website...</h2>
+        <h2><br>I used HTML, CSS with the <a href="https://picocss.com">Pico CSS</a> framework, and a little bit of JavaScript!</h2>
+        <h2 style="margin-top: 100vh; margin-bottom: 50vh;">At this point, you've probably been reading for more than 30 seconds! That's enough to go wash a dish! 👍</h2>
+
+        <hgroup>
+            <h2>I'm currently building an unblocked games website.</h2>
+            <p class="pico-color-fuchsia-200">Called <a href="https://math-help.xyz">math-help.xyz</a></p>
+        </hgroup>
+
+        <h2 style="margin-top: 40vh;">I think I will become a great programmer some day.</h2>
+        <h1 style="margin-top: 80vh;">My socials:</h1>
+        <a href="https://github.com/Lufthansaaa"><img src="github.png" alt="Github Logo" style="width: 50px;"></a>
+        <a href="https://discordapp.com/users/1001678431815217192"><img src="discord.png" alt="Discord Logo" style="width: 50px; margin-left: 5px;"></a>
+        <a href="https://www.youtube.com/channel/UC4rSM8BPwdib9xDZti2peew"><img src="youtube.png" style="margin-left: 5px; width: 50px;"></a>
+
+        <h2 style="margin-top: 20vh">Thank you for reading!</h2>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>

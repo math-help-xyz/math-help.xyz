@@ -1,0 +1,49 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-family: 'Minecraft', sans-serif;
+    padding-left: 500px;
+    padding-right: 500px;
+    background-color: rgb(190, 184, 167);
+}
+
+#box{
+    text-align: center;
+    margin-top: 10%;
+    padding: 5px;
+    border: 5px solid rgb(97, 94, 85);
+    border-radius: 20px;
+}
+
+#title {
+    font-family: 'Minecraft', sans-serif;
+}
+
+p {
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+#moreAbt{
+    font-family: 'Minecraft', sans-serif;
+    font-size: 45px;
+    padding: 10px;
+    padding-bottom: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(218, 212, 194);
+    border: none;
+    border-radius: 5px;
+}
+
+#moreAbt:hover{
+    background-color: hsl(45, 8%, 20%);
+    cursor: pointer;
+}
+
+#moreAbt:active{
+    background-color: hsl(36, 8%, 12%);
+}

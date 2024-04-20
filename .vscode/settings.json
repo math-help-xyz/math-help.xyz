@@ -1,0 +1,25 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#71a9ea",
+        "activityBar.background": "#71a9ea",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#fbe3ee",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#71a9ea",
+        "statusBar.background": "#448ee4",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#1f74d6",
+        "statusBarItem.remoteBackground": "#448ee4",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#448ee4",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#448ee499",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#448EE4",
+    "cSpell.words": [
+        "Pico"
+    ]
+}
