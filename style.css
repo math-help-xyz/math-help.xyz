@@ -25,24 +25,3 @@ body {
 p {
     font-size: 25px;
 }
-
-#moreAbt{
-    font-family: 'Minecraft', sans-serif;
-    font-size: 45px;
-    padding: 10px;
-    padding-bottom: 22px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(191, 195, 250);
-    border: none;
-    border-radius: 5px;
-}
-
-#moreAbt:hover{
-    background-color: hsl(227, 98%, 63%);
-    cursor: pointer;
-}
-
-#moreAbt:active{
-    background-color: hsl(227, 98%, 57%);
-}
